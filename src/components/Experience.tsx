@@ -8,10 +8,20 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
+    {
+    role: 'Director, Product Management and Delivery',
+    company: 'Belle Tire',
+    duration: 'September 2025 - Present',
+    details: [
+      'Own Delivery Management of the Entireprise',
+      'Helping to build a strong Product Management team for all technology products',
+      'Helping to move work through entire Portfolio Lifecycle (Intake, Discovery, Prioritization, Execution, Monitoring)'
+    ]
+  },
   {
     role: 'Team Leader, Engineering',
     company: 'Rocket',
-    duration: 'August 2024 - Present',
+    duration: 'August 2024 - September 2025',
     details: [
       'Led MLS Data team to increase U.S. listing coverage by 11% ahead of national Super Bowl campaign',
       'Architected scalable data pipelines using Python, Kafka, Postgres, and AWS services',
